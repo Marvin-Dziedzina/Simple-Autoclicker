@@ -26,7 +26,7 @@ int main()
     printf("Click alt\n");
     while (1)
     {
-        // sleep 5 milliseconds to not let your pc burn like the sun
+        // sleep 5 milliseconds to not let your pc burn as hot as the sun
         Sleep(5);
         while (GetAsyncKeyState(KEYCODE))
         {
